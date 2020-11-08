@@ -15,10 +15,10 @@ def numbercheck(text,lower,higher):
         if (number>=lower and number<=higher):
             message="Thank you!"
         elif number<lower: #to get here the number must be out of range
-            message="This number is too low"
+            message="This number is too low!"
             answer_valid=False
         else:
-            message="This number is too high"
+            message="This number is too high!"
             answer_valid=False
     else: #to get here a non-integer has been entered
         message="This is not an integer!"
